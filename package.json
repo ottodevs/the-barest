@@ -1,0 +1,22 @@
+{
+  "name": "the-barest",
+  "version": "0.0.1",
+  "description": "The Minimal Aragon skeleton for making DAO kits",
+  "dependencies": {
+    "@aragon/apps-token-manager": "^1.0.0",
+    "@aragon/apps-voting": "^1.0.0",
+    "@aragon/os": "3.1.9"
+  },
+  "devDependencies": {
+    "@aragon/cli": "^4.0.6",
+    "truffle": "4.0.5"
+  },
+  "scripts": {
+    "start": "aragon run --kit Kit --kit-init @ARAGON_ENS"
+  },
+  "keywords": [
+    "aragon",
+    "aragon-boilerplate"
+  ],
+  "license": "MIT"
+}
